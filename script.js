@@ -6,5 +6,5 @@ convertBtn.addEventListener('click', () => {
 });
 
 function sendURL(URL) {
-    window.location.href = `https://downtube-server.heroku.app/download?URL=${URL}`;
+    window.location.href = `https://downtube-server.herokuapp.com/download?URL=${URL}`;
 }

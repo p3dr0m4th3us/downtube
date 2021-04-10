@@ -1,22 +1,17 @@
 *{
     background-color: #1e1e1e;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
 }
-
-.URL-input{
-    border-radius: 10px;
-    border-color: #9200ff;
-    color: #e2e2e2;
-}
-.convert-button{
-    background-color: #9200ff;
-    color: white;
-}
-.heading{
-    color: white;
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    
+}
+.button, .input{
+    margin: 0 auto;
+}
+.button{
+    margin-top: 40px;
 }
