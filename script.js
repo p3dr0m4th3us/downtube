@@ -1,5 +1,5 @@
-var convertBtn = document.querySelector('.convert-button');
-var URLinput = document.querySelector('.URL-input');
+var convertBtn = document.querySelector('.button');
+var URLinput = document.querySelector('.input');
 
 convertBtn.addEventListener('click', () => {
     sendURL(URLinput.value);
